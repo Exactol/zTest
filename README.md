@@ -1,5 +1,5 @@
 # zTest
-A input() testing library for Python 3
+A testing library for the input() function for Python 3
 
 ## Importing
 ```python
