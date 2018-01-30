@@ -21,6 +21,7 @@ def testInput(printStr):
 
         #Either raise exception or return empty string
         if (raiseExceptionOnTestFinished):
+            callingModule.input = originalInput
             raise Exception("Out of test cases, returning to user input")
         else:
             retStr = input()

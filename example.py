@@ -12,6 +12,6 @@ def y_n(prompt="Answer yes or no\n"):
          else:
              print ("%s is an invalid answer."%answer)
 
-testClass = zTest(["y", "n"])
+zTest(["y", "n"])
 y_n()
 y_n()
