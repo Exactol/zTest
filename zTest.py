@@ -8,7 +8,7 @@ raiseExceptionOnTestFinished = False
 callingModule = None
 
 #Input override to simulate input at index of test string
-def testInput(printStr):
+def testInput(printStr = ""):
     print(printStr)
 
     global index
@@ -27,7 +27,7 @@ def testInput(printStr):
             retStr = input()
             return(retStr)
     else:
-        print("-Test:", testStrings[index])
+        print("-Input:", testStrings[index])
         #Returning string is equivilent of user input
         return testStrings[index]
 
